@@ -1,0 +1,25 @@
+services:
+  giraffe:
+    runtime: nvidia
+    command: /gitlab/projects/headnerf/docker/run_jupyter_lab_ssh.sh
+    image: headnerf
+    ports:
+     - "42231:8888" # jupyterlab
+     - "42232:22"   # ssh
+     - "42233:6006" # tensorboard
+    environment:
+    - LD_LIBRARY_PATH=/usr/local/lib:/usr/local/cuda/lib64/stubs/
+    - XDG_DATA_HOME=$HOME
+    - XDG_CONFIG_HOME=$HOME/.config
+    - HOME=$HOME
+    - USER=$USER
+    - NVIDIA_VISIBLE_DEVICES=0
+    volumes:
+    - /data/$USER/gitlab:/gitlab
+    - /data/$USER/data:/data
+    - /usr/local/certificates:/certificates
+    - $HOME:$HOME
+    # Map in authorized keys to enable logging in over SSH using PyCharm
+    - $HOME/.ssh/authorized_keys:/root/.ssh/authorized_keys
+    - $PWD:/project
+version: '2.3'

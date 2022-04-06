@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ebe93b2d-5f55-4397-9875-41346bcfed1b" name="dl-42000">
+        <fileTransfer rootFolder="/home/boonmjvd" accessType="SFTP" host="pc-11393" port="42000" sshConfigId="c3bc25a9-d791-4cc9-8aba-7459cb7bb216" sshConfig="boonmjvd@pc-11393:42000 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

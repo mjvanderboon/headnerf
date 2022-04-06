@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="dl-42000-headnerf" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="dl-42000">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/boonmjvd/gitlab/projects/headnerf" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="dl-42000-headnerf">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/gitlab/projects/headnerf" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@pc-11393:42132 key">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@pc-11393:42132 key (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
