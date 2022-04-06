@@ -5,6 +5,9 @@ The main body of the is forked from [GIRAFFE](https://github.com/autonomousvisio
 
 [This repository](https://github.com/zllrunning/face-parsing.PyTorch) is used for face segmentation.
 
+## Installation
+Download the pretrained face segmentation network `79999_iter.pth` and put in `face_parsing/`.
+
 For licensing issues, some files of DECA are removed. After agreeing to their licenses, you can download them from their github page.
 Put these files in the `decalib/data/` folder:
 - deca_model.tar
@@ -13,6 +16,7 @@ Put these files in the `decalib/data/` folder:
 - FLAME_albedo_from_BFM.npz
 - generic_model.pkl
 - landmark_embedding.npy
+- male_model.pkl
 - texture_data_256.npy
 
 **TODO**:
