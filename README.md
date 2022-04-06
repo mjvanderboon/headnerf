@@ -19,10 +19,8 @@ Put these files in the `decalib/data/` folder:
 - texture_data_256.npy
 
 **TODO**:
-- Current output images are not disentangled for identity and expression yet. This is possible by training on a dataset where single subjects
-carry out multiple expression to disentangle these latent spaces. 
-- Current output images are still quite blurry. It may be able to solve this by implementing an image wide discriminator, as
-explained in the HeadNerf paper. 
+- Current output images are not disentangled for identity and expression yet. In order to disentangle these latent space, the network needs to be trained on a dataset where single subjects carry out multiple expressions. 
+- Current output images are still quite blurry. It may be able to solve this by implementing an image wide discriminator, as explained in the HeadNerf paper. 
 
 # GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields
 ## [Project Page](https://m-niemeyer.github.io/project-pages/giraffe/index.html) | [Paper](http://www.cvlibs.net/publications/Niemeyer2021CVPR.pdf) | [Supplementary](http://www.cvlibs.net/publications/Niemeyer2021CVPR_supplementary.pdf) | [Video](http://www.youtube.com/watch?v=fIaDXC-qRSg&vq=hd1080&autoplay=1) | [Slides](https://m-niemeyer.github.io/slides/talks/giraffe/index.html) | [Blog](https://autonomousvision.github.io/giraffe/) | [Talk](https://www.youtube.com/watch?v=scnXyCSMJF4)
