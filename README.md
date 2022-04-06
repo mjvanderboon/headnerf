@@ -1,9 +1,8 @@
 # (Partial) implementation of [HeadNerf](https://hy1995.top/HeadNeRF-Project/)
-The main body of the is forked from [GIRAFFE](https://github.com/autonomousvision/giraffe).
+The main body of this repository is forked from [GIRAFFE](https://github.com/autonomousvision/giraffe).
 
-[DECA](https://github.com/YadiraF/DECA) is used as backend for latent code initialisation.
-
-[This repository](https://github.com/zllrunning/face-parsing.PyTorch) is used for face segmentation.
+- [DECA](https://github.com/YadiraF/DECA) is used as backend for latent code initialisation.
+- [This repository](https://github.com/zllrunning/face-parsing.PyTorch) is used for face segmentation.
 
 ## Installation
 Download the pretrained face segmentation network `79999_iter.pth` and put in `face_parsing/`.
